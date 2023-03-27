@@ -1,0 +1,32 @@
+ 1825  mkdir Documents/ toy_for_litle_scool
+ 1826  mkdir Documents/toy_for_litle_scool
+ 1827  mkdir Documents/toy_for_old_scool
+ 1828  touch Documents/toy_for_old_scool/constructor
+ 1829  touch Documents/toy_for_old_scool/robots
+ 1830  touch Documents/toy_for_old_scool/table_games
+ 1831  touch Documents/toy_for_litle_scool/soft_toys
+ 1832  touch Documents/toy_for_litle_scool/dolls
+ 1833  touch Documents/toy_for_litle_scool/cars
+ 1834  rsync -avh --progress /Documents/toy_for_litle_scool/ Documents/toy_for_old_scool/
+ 1835  rsync -avh --progress Documents/toy_for_litle_scool/ Documents/toy_for_old_scool/
+ 1836  ls Documents/toy_for_litle_scool/
+ 1837  ls Documents/toy_for_old_scool/
+ 1838  mv Documents/toy_for_old_scool/ Documents/name_of_the_toy
+ 1839  ls Documents/
+ 1840  mv Documents/name_of_the_toy/ Documents/toys
+ 1841  ls Documents/
+ 1842  ls Documents/toy
+ 1843  ls Documents/toys/
+ 1844  snap find chromium
+ 1845  sudo apt update
+ 1846  sudo apt install chromium
+ 1847  sudo snap remove chromium
+ 1848  where is crontab
+ 1849  whereis crontab
+ 1850  ls /etc/crontab 
+ 1851  cd /etc/crontab
+ 1852  sudo nano /etc/crontab
+================================
+3  *    * * *   root   cd /home/goich/ && history >> /Documents/history.txt
+==================================
+ 1853  history > share/last.txt
